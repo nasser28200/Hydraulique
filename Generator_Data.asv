@@ -1,0 +1,13 @@
+clc;
+clear;
+P=4;
+wm=2*pi*50/P
+R_charge=0;
+L_charge=0;
+Rs=0.6+R_charge;
+Ld=1.4e-3+L_charge;
+Lq=2.8e-3+L_charge;
+
+Phif=0.8;
+B1=[-1/Ld 0 0;0 -1/Lq 0];
+B1=[0 0 0;0  0 1/Lq];
